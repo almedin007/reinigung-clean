@@ -396,5 +396,25 @@ grid-template-columns:1fr;
 .gallery-grid{
 grid-template-columns:1fr;
 }
+  /* Galerie */
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.galerie img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.galerie img:hover {
+    transform: scale(1.03);
+}
 
 }
