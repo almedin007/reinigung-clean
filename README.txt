@@ -1,0 +1,1 @@
+Dies ist ein Startprojekt. Logo als images/logo.png und Fotos in images/ einfügen.
