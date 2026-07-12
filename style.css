@@ -98,24 +98,25 @@ background:rgba(0,0,0,.55);
 }
 
 .hero-content{
-position:relative;
-z-index:2;
-max-width:900px;
-padding-top:120px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 120px;
+}
 
 }
 
 .hero h1{
-    color:#fff;
-    font-size:72px;
-    font-weight:800;
-    line-height:1.05;
-    margin-bottom:10px;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: white;
 }
 
 .hero h1 span{
-    display:block;
-    color:#f8b400;
+    display: block;
+    color: #f4b400;
 }
 
 .hero-location{
